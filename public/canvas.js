@@ -137,7 +137,7 @@ eraserwidthElem.addEventListener("change", (e) => {
     
    
     eraserWidth = eraserwidthElem.value;
-//    tool.strokeStyle = erasercolor;
+   tool.strokeStyle = erasercolor;
     tool.lineWidth = eraserWidth;
     
 });

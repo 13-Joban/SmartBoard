@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
- 
+
 body{
     margin: 0;
     padding: 0;
@@ -62,7 +62,7 @@ body{
 .pencil-tools{
 
 
-    background-color: hotpink;
+    /* background-color: hotpink; */
 
      background-color:#ecf0f1;
 
@@ -76,7 +76,7 @@ body{
 .pencil-width-cont
 {
     height: 2rem;
-    background-color: yellow;
+    /* background-color: yellow; */
      display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +87,7 @@ body{
 }
 .pencil-color-cont{
     height: calc(100% - 2rem);
-    background-color:rgba(0, 0, 0, 0.15);
+    /* background-color:rgba(0, 0, 0, 0.15); */
      display: flex;
     justify-content: center;
     align-items: center;
@@ -121,8 +121,8 @@ body{
 .eraser-tools{
     background-color:#ecf0f1;
 
-    height: 5rem;
-     width: 8rem;
+    /* height: 5rem; */
+    width: 8rem;
     position: absolute;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     top: 8rem;
@@ -145,8 +145,8 @@ body{
     height: 10rem;
     width: 15rem;
     position: absolute; 
-     display: flex; 
-    background-color: magenta;
+    /* display: flex; */
+    /* background-color: magenta; */
      display: block;
     top: 15rem;
     left: 10rem;
@@ -160,7 +160,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 15px;
 
 } 
-.header-cont > * { 
+.header-cont > *{ 
      height: 1.3rem;
     width: 1.3rem;
     margin-right: 0.6rem;
